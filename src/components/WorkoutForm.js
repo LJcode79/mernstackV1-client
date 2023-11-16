@@ -22,7 +22,7 @@ const WorkoutForm = () => {
 
         const workout = {title, load, reps}
 
-        const response = await fetch('https://mernstackv1-server-production.up.railway.app/api/workouts', {
+        const response = await fetch('/api/workouts', {
             method: 'POST',
             body: JSON.stringify(workout),
             headers: {
