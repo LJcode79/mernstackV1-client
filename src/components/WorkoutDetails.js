@@ -13,7 +13,7 @@ const WorkoutDetails = ({ workout }) => {
             return
         }
 
-        const response = await fetch('https://mernstackv1-server-production.up.railway.app/api/workouts/' + workout._id, {
+        const response = await fetch(process.env.REACT_APP_BACKEND + '/api/workouts/' + workout._id, {
             method: 'DELETE',
             headers: {
                 'Authorization': `Bearer ${user.token}`
