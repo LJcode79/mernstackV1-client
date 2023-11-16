@@ -1,5 +1,5 @@
 {
-  "proxy": "https://mernstackv1-server-production.up.railway.app/",
+  "proxy": "https://mernstackv1-server-production.up.railway.app",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
